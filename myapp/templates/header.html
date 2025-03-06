@@ -53,7 +53,7 @@
     </div><!-- end loader --> 
     <!-- END LOADER -->
     
-	<div class="top-bar">
+<!--	<div class="top-bar">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div>  -->
     <header class="header header_style_01">
         <nav class="megamenu navbar navbar-default">
             <div class="container-fluid">
@@ -105,7 +105,7 @@
                         {% if request.session.emp %}
                             <li><a href="{% url 'index' %}">Home</a></li>
                             <li><a href="{% url 'careers' %}">Careers</a></li>
-                            <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
+                      <!-- <li><a href="{% url 'testimonials' %}">Testimonials</a></li> -->
                             <li><a href="{% url 'addjobs' %}">Add Jobs</a></li>
                             <li><a href="{% url 'applications' %}">View Applications</a></li>
                             <li><a href="{% url 'logout_emp' %}">Log Out</a></li>
@@ -114,7 +114,7 @@
                             <li><a href="{% url 'about' %}">About us</a></li>
                             <li><a href="{% url 'services' %}">Our Services</a></li>
                             <li><a href="{% url 'careers' %}">Careers</a></li>
-                            <li><a href="{% url 'testimonials' %}">Testimonials</a></li>
+                        <!--    <li><a href="{% url 'testimonials' %}">Testimonials</a></li> -->
                             <li><a href="{% url 'contact' %}">Contact</a></li>
                             <li><a href="{% url 'login' %}">Log-In</a></li>
                         {% endif %}
